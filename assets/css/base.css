@@ -1,0 +1,41 @@
+:root {
+    --white-color: #ffffff;
+    --primary-color: #864dce;
+    --primary-color-1: #5e23a9;
+    --black-color: #0e0e0e; 
+}
+@font-face {
+    font-family: myNotoSansCJK;
+    src: url('./../../vendors/fonts/NotoSansCJK-Regular.ttc');
+}
+@font-face {
+    font-family: myNotoSansCJK-Black;
+    src: url('./../../vendors/fonts/NotoSansCJK-Black.ttc');
+}
+@font-face {
+    font-family: myNotoSansCJK-Medium;
+    src: url('./../../vendors/fonts/NotoSansCJK-Medium.ttc');
+}
+@font-face {
+    font-family: myGothamBook;
+    src: url('./../../vendors/fonts/GothamBookRegular.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: myNotoSansCJK;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    padding-left: 0;
+}
+
